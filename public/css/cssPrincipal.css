@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.centerlogoLogin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr{
+    padding-left: 15px;
+}
+    
+html,body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+    
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.skin-blue-principal{
+    background-color: #666666;
+}
+
+.alinearDerecha{
+   text-align: right;
+}
+
+.fondoGrid{
+    background-color: #004369;
+ }
+
+ .labelDetalles{
+    color:#004369;
+    font-weight: bold;
+ }
+     
+ /*button.custom-checkbox {}*/
+
+ /* oculto el input */
+ button.custom-checkbox input[type=checkbox] {
+   display: none;
+ }
+ /* oculto el texto */
+ button.custom-checkbox span {
+   display: none;
+ }
+ /* si está activo el input */
+ button.custom-checkbox input[type=checkbox]:checked + label span.active {
+   display: inline-block;
+ }
+ /* si está inactivo el input */
+ button.custom-checkbox input[type=checkbox]:not(:checked) + label span.not-active {
+   display: inline-block;
+ }
+ .tituloDetalle{
+    color:Red;
+    font-weight: bold;
+ }
+
+ .titleModal{
+    color: white;
+    font-weight: bold;
+    background: #01579B;
+
+ }
+ .backgroundTitleModal{
+    color: white;
+    font-weight: bold;
+ }
+
+.logoDash{
+    margin-left: 2px;
+    margin-right: auto;
+    display: block;
+ }
+ .titlecatalogos{
+    color: #6699FF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .alignButtonGrid{
+     text-align: center;
+     width: 100px;
+ }
