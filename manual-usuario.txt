@@ -1,0 +1,111 @@
+Manual de usuario
+
+Aplicación web para control de proveedores, compras, ventas, inventario y generador de órdenes de compra
+
+Introducción
+
+Este manual de usuario describe cómo utilizar la aplicación web para control de proveedores, compras, ventas, inventario y generador de órdenes de compra. La aplicación está desarrollada en Laravel y SQL Workbench.
+
+Requisitos
+
+Para utilizar la aplicación, necesitas lo siguiente:
+
+Un servidor web con PHP 7.4 o superior
+Una base de datos MySQL
+Un navegador web moderno
+Instalación
+
+Para instalar la aplicación, sigue estos pasos:
+
+Descarga el código fuente de la aplicación.
+Descomprime el código fuente en un directorio en tu servidor web.
+Crea una base de datos MySQL.
+Importa el archivo database.sql en la base de datos recién creada.
+Modifica el archivo .env para configurar los datos de conexión a la base de datos.
+Una vez que hayas completado estos pasos, la aplicación estará instalada y lista para usar.
+
+Inicio de sesión
+
+Para iniciar sesión en la aplicación, visita la URL de la aplicación en tu navegador web. Se te presentará una pantalla de inicio de sesión.
+
+Credenciales de inicio de sesión
+
+Las credenciales de inicio de sesión predeterminadas son las siguientes:
+
+Usuario: admin
+Contraseña: admin
+Una vez que hayas iniciado sesión, se te mostrará la pantalla principal de la aplicación.
+
+Gestión de proveedores
+
+En la pantalla principal, puedes ver una lista de todos los proveedores. Para agregar un nuevo proveedor, haz clic en el botón "Agregar proveedor".
+
+En el formulario de agregar proveedor, ingresa la siguiente información:
+
+Nombre del proveedor
+Dirección del proveedor
+Teléfono del proveedor
+Correo electrónico del proveedor
+Para guardar el proveedor, haz clic en el botón "Guardar".
+
+Para editar un proveedor existente, haz clic en el botón "Editar" junto al proveedor que deseas editar.
+
+En el formulario de editar proveedor, actualiza la información que desees y luego haz clic en el botón "Guardar".
+
+Para eliminar un proveedor, haz clic en el botón "Eliminar" junto al proveedor que deseas eliminar.
+
+Gestión de compras
+
+En la pantalla principal, puedes ver una lista de todas las compras. Para agregar una nueva compra, haz clic en el botón "Agregar compra".
+
+En el formulario de agregar compra, ingresa la siguiente información:
+
+Proveedor
+Fecha de compra
+Detalles de la compra
+Para guardar la compra, haz clic en el botón "Guardar".
+
+Para editar una compra existente, haz clic en el botón "Editar" junto a la compra que deseas editar.
+
+En el formulario de editar compra, actualiza la información que desees y luego haz clic en el botón "Guardar".
+
+Para eliminar una compra, haz clic en el botón "Eliminar" junto a la compra que deseas eliminar.
+
+Gestión de ventas
+
+En la pantalla principal, puedes ver una lista de todas las ventas. Para agregar una nueva venta, haz clic en el botón "Agregar venta".
+
+En el formulario de agregar venta, ingresa la siguiente información:
+
+Cliente
+Fecha de venta
+Detalles de la venta
+Para guardar la venta, haz clic en el botón "Guardar".
+
+Para editar una venta existente, haz clic en el botón "Editar" junto a la venta que deseas editar.
+
+En el formulario de editar venta, actualiza la información que desees y luego haz clic en el botón "Guardar".
+
+Para eliminar una venta, haz clic en el botón "Eliminar" junto a la venta que deseas eliminar.
+
+Gestión de inventario
+
+En la pantalla principal, puedes ver una lista de todos los productos en inventario. Para agregar un nuevo producto, haz clic en el botón "Agregar producto".
+
+En el formulario de agregar producto, ingresa la siguiente información:
+
+Nombre del producto
+Descripción del producto
+Precio del producto
+Cantidad en inventario
+Para guardar el producto, haz clic en el botón "Guardar".
+
+Para editar un producto existente, haz clic en el botón "Editar" junto al producto que deseas editar.
+
+En el formulario de editar producto, actualiza la información que desees y luego haz clic en el botón "Guardar".
+
+Para eliminar un producto, haz clic en el botón "Eliminar" junto al producto que deseas eliminar.
+
+Generación de órdenes de compra
+
+En la pantalla principal, puedes generar

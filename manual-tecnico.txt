@@ -1,0 +1,75 @@
+Manual técnico
+
+Aplicación web para control de proveedores, compras, ventas, inventario y generador de órdenes de compra
+
+Introducción
+
+Este manual técnico describe la arquitectura y el funcionamiento de la aplicación web para control de proveedores, compras, ventas, inventario y generador de órdenes de compra. La aplicación está desarrollada en Laravel y SQL Workbench.
+
+Arquitectura
+
+La aplicación está compuesta por los siguientes componentes:
+
+Frontend: La interfaz de usuario de la aplicación. Está desarrollada en HTML, CSS y JavaScript.
+Backend: El código que se ejecuta en el servidor. Está desarrollado en Laravel.
+Base de datos: El lugar donde se almacenan los datos de la aplicación. Está desarrollada en MySQL.
+Frontend
+
+El frontend de la aplicación está desarrollado utilizando el framework de JavaScript React. El frontend se comunica con el backend utilizando la API REST de Laravel.
+
+Backend
+
+El backend de la aplicación está desarrollado utilizando el framework de PHP Laravel. El backend proporciona las siguientes funcionalidades:
+
+Gestión de proveedores
+Gestión de compras
+Gestión de ventas
+Gestión de inventario
+Generación de órdenes de compra
+Base de datos
+
+La base de datos de la aplicación está desarrollada en MySQL. La base de datos contiene las siguientes tablas:
+
+proveedores: Almacena información sobre los proveedores.
+compras: Almacena información sobre las compras realizadas.
+ventas: Almacena información sobre las ventas realizadas.
+productos: Almacena información sobre los productos en inventario.
+ordenes_compra: Almacena información sobre las órdenes de compra generadas.
+Funcionalidad
+
+La aplicación proporciona las siguientes funcionalidades:
+
+Gestión de proveedores: Permite agregar, editar y eliminar proveedores.
+Gestión de compras: Permite agregar, editar y eliminar compras.
+Gestión de ventas: Permite agregar, editar y eliminar ventas.
+Gestión de inventario: Permite agregar, editar y eliminar productos del inventario.
+Generación de órdenes de compra: Permite generar órdenes de compra a partir de los productos en inventario.
+Instalación
+
+Para instalar la aplicación, sigue estos pasos:
+
+Descarga el código fuente de la aplicación.
+Descomprime el código fuente en un directorio en tu servidor web.
+Crea una base de datos MySQL.
+Importa el archivo database.sql en la base de datos recién creada.
+Modifica el archivo .env para configurar los datos de conexión a la base de datos.
+Una vez que hayas completado estos pasos, la aplicación estará instalada y lista para usar.
+
+Despliegue
+
+Para desplegar la aplicación en un servidor web, sigue estos pasos:
+
+Instala el servidor web y el PHP necesario.
+Copia el código fuente de la aplicación al directorio raíz del servidor web.
+Crea una base de datos MySQL.
+Importa el archivo database.sql en la base de datos recién creada.
+Modifica el archivo .env para configurar los datos de conexión a la base de datos.
+Una vez que hayas completado estos pasos, la aplicación estará desplegada en el servidor web.
+
+Soporte
+
+Para obtener soporte para la aplicación, visita el sitio web del proyecto.
+
+Licencia
+
+La aplicación está licenciada bajo la licencia MIT.
